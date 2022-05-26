@@ -10,6 +10,7 @@ During posting a comment an authorization of user is necessary (via external api
 For retrieving comments are used local database (MySQL) or external API. (https://jsonplaceholder.typicode.com/ ).
 
 ### Dependencies
+
 JDK
 Maven
 
