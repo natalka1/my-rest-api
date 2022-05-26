@@ -5,41 +5,36 @@ REST CRUD API using Spring Boot
 
 ## Description
 
-Spring Boot + JPA Application to manage comments. For retrieving comments are used local database (MySQL) nad external API (https://jsonplaceholder.typicode.com/ ).
-## Getting Started
+Spring Boot + JPA Application to manage comments.
+During posting a comment an authorization of user is necessary (via external api).
+For retrieving comments are used local database (MySQL) or external API. (https://jsonplaceholder.typicode.com/ ).
 
 ### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+JDK
+Maven
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+Import to eclipse or download jar
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+Run in exliclipe or execute command in terminal:
 
-## Help
+java -jar demo-0.0.1-SNAPSHOT.jar
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
 
-## Authors
+## Testing
 
-Contributors names and contact info
+Using postman, examples:
+http://localhost:8080/api/1
+http://localhost:8080/api/users/1
+http://localhost:8080/api/users/100
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+## Author
+
+Natalia Trybulova
 
 ## Version History
 
-* 0.2
+* 0.1
