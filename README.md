@@ -1,12 +1,11 @@
 
 # MY REST API
 
-Simple overview of use/purpose.
+REST CRUD API using Spring Boot
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
-
+Spring Boot + JPA Application to manage comments. For retrieving comments are used local database (MySQL) nad external API (https://jsonplaceholder.typicode.com/ ).
 ## Getting Started
 
 ### Dependencies
