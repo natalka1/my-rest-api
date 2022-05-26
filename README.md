@@ -20,7 +20,7 @@ Import to eclipse or download jar
 
 ### Executing program
 
-Run in exliclipe or execute command in terminal:
+Run in eclipse or execute command in terminal:
 
 java -jar demo-0.0.1-SNAPSHOT.jar
 
